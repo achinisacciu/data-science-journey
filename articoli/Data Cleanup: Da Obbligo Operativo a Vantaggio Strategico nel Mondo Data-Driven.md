@@ -51,7 +51,8 @@ Questi errori minano l'integrità del dato.
 Un outlier non è sempre un errore, ma richiede sempre un'indagine. Potrebbe essere un dato anomalo ma legittimo (es. una transazione fraudolenta) o un semplice errore di inserimento.
 
 * **Metodo Basato su Deviazione Standard (Z-score):** Per dati con distribuzione approssimativamente normale, si possono considerare outlier i valori che si discostano di un certo numero di deviazioni standard (solitamente 2 o 3) dalla media. La formula dello Z-score è:
-    $Z = \frac{(x - \mu)}{\sigma}$
+
+  $Z = \frac{(x - \mu)}{\sigma}$
     dove $x$ è il punto dati, $\mu$ è la media e $\sigma$ è la deviazione standard.
 * **Metodo del Range Interquartile (IQR):** Un approccio non parametrico e più robusto per distribuzioni asimmetriche. Un valore è considerato un outlier se si trova al di fuori del seguente range:
     $$[Q1 - 1.5 \cdot IQR, Q3 + 1.5 \cdot IQR]$$
