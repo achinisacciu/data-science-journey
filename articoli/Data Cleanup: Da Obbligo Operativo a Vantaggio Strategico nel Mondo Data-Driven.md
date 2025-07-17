@@ -54,7 +54,7 @@ Un outlier non è sempre un errore, ma richiede sempre un'indagine. Potrebbe ess
 
   $Z = \frac{(x - \mu)}{\sigma}$
 
-dove $x$ è il punto dati, $\mu$ è la media e $\sigma$ è la deviazione standard.
+  dove $x$ è il punto dati, $\mu$ è la media e $\sigma$ è la deviazione standard.
 * **Metodo del Range Interquartile (IQR):** Un approccio non parametrico e più robusto per distribuzioni asimmetriche. Un valore è considerato un outlier se si trova al di fuori del seguente range:
     $$[Q1 - 1.5 \cdot IQR, Q3 + 1.5 \cdot IQR]$$
     dove $Q1$ e $Q3$ sono il primo e il terzo quartile, e $IQR = Q3 - Q1$.
